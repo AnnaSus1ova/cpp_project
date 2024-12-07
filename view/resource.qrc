@@ -2,4 +2,7 @@
     <qresource prefix="/images">
         <file>img/my-background.png</file>
     </qresource>
+    <qresource prefix="/quest">
+        <file>question.jpg</file>
+    </qresource>
 </RCC>

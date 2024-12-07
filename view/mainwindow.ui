@@ -114,7 +114,7 @@
      <string notr="true">background-color: rgb(225, 225, 225)</string>
     </property>
     <property name="text">
-     <string>Прикрепить файл</string>
+     <string>Прикрепить</string>
     </property>
    </widget>
    <widget class="QPushButton" name="AddFile2">
@@ -130,7 +130,7 @@
      <string notr="true">background-color: rgb(225, 225, 225)</string>
     </property>
     <property name="text">
-     <string>Прикрепить файл</string>
+     <string>Прикрепить</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalWidget_2" native="true">
@@ -235,11 +235,14 @@ font: 12pt &quot;Segoe UI&quot;;</string>
       </widget>
      </item>
      <item>
-      <widget class="QTextBrowser" name="ShowError_1">
-       <property name="styleSheet">
-        <string notr="true">font: 16pt &quot;Segoe UI&quot;;</string>
-       </property>
-      </widget>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_2"/>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser"/>
+       </item>
+      </layout>
      </item>
      <item>
       <widget class="QLineEdit" name="lineEdit_5">
@@ -279,11 +282,14 @@ font: 12pt &quot;Segoe UI&quot;;</string>
       </widget>
      </item>
      <item>
-      <widget class="QTextBrowser" name="ShowError_2">
-       <property name="styleSheet">
-        <string notr="true">font: 16pt &quot;Segoe UI&quot;;</string>
-       </property>
-      </widget>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_3"/>
+       </item>
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_4"/>
+       </item>
+      </layout>
      </item>
     </layout>
    </widget>
@@ -385,6 +391,47 @@ font: 12pt &quot;Segoe UI&quot;;</string>
      <pixmap>../../my-background.png</pixmap>
     </property>
    </widget>
+   <widget class="QPushButton" name="question">
+    <property name="geometry">
+     <rect>
+      <x>872</x>
+      <y>25</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <bold>false</bold>
+      <kerning>true</kerning>
+      <hintingpreference>PreferDefaultHinting</hintingpreference>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::FocusPolicy::NoFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogQuestion"/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
    <zorder>picture</zorder>
    <zorder>verticalWidget_6</zorder>
    <zorder>Graph2</zorder>
@@ -395,6 +442,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
    <zorder>Graph1</zorder>
    <zorder>Error</zorder>
    <zorder>lineEdit</zorder>
+   <zorder>question</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -409,5 +457,22 @@ font: 12pt &quot;Segoe UI&quot;;</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>question</sender>
+   <signal>pressed()</signal>
+   <receiver>question</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>872</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>893</x>
+     <y>69</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

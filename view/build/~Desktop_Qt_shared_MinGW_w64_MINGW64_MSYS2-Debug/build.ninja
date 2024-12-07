@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/
+cmake_ninja_workdir = C$:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target view
 
@@ -47,13 +47,13 @@ cmake_ninja_workdir = C$:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_s
 #############################################
 # Order-only phony target for view
 
-build cmake_object_order_depends_target_view: phony || view_autogen view_autogen/EWIEGA46WW/qrc_resource.cpp view_autogen/include/ui_mainwindow.h view_autogen/mocs_compilation.cpp view_autogen/timestamp
+build cmake_object_order_depends_target_view: phony || view_autogen view_autogen/EWIEGA46WW/qrc_resource.cpp view_autogen/include/ui_mainwindow.h view_autogen/include/ui_secdialog.h view_autogen/mocs_compilation.cpp view_autogen/timestamp
 
-build CMakeFiles/view.dir/view_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_view
+build CMakeFiles/view.dir/view_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_view
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\view.dir\view_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\view.dir
   OBJECT_FILE_DIR = CMakeFiles\view.dir\view_autogen
 
@@ -61,7 +61,7 @@ build CMakeFiles/view.dir/main.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/U
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\view.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\view.dir
   OBJECT_FILE_DIR = CMakeFiles\view.dir
 
@@ -69,7 +69,23 @@ build CMakeFiles/view.dir/mainwindow.cpp.obj: CXX_COMPILER__view_unscanned_Debug
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\view.dir\mainwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\view.dir
+  OBJECT_FILE_DIR = CMakeFiles\view.dir
+
+build CMakeFiles/view.dir/Data.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/Data.cpp || cmake_object_order_depends_target_view
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\view.dir\Data.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\view.dir
+  OBJECT_FILE_DIR = CMakeFiles\view.dir
+
+build CMakeFiles/view.dir/Vector.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/Vector.cpp || cmake_object_order_depends_target_view
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\view.dir\Vector.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\view.dir
   OBJECT_FILE_DIR = CMakeFiles\view.dir
 
@@ -77,15 +93,23 @@ build CMakeFiles/view.dir/errors.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\view.dir\errors.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\view.dir
   OBJECT_FILE_DIR = CMakeFiles\view.dir
 
-build CMakeFiles/view.dir/view_autogen/EWIEGA46WW/qrc_resource.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/EWIEGA46WW/qrc_resource.cpp || cmake_object_order_depends_target_view
+build CMakeFiles/view.dir/secdialog.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/secdialog.cpp || cmake_object_order_depends_target_view
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\view.dir\secdialog.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\view.dir
+  OBJECT_FILE_DIR = CMakeFiles\view.dir
+
+build CMakeFiles/view.dir/view_autogen/EWIEGA46WW/qrc_resource.cpp.obj: CXX_COMPILER__view_unscanned_Debug C$:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/EWIEGA46WW/qrc_resource.cpp || cmake_object_order_depends_target_view
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
   DEP_FILE = CMakeFiles\view.dir\view_autogen\EWIEGA46WW\qrc_resource.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
+  INCLUDES = -IC:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\view.dir
   OBJECT_FILE_DIR = CMakeFiles\view.dir\view_autogen\EWIEGA46WW
 
@@ -97,7 +121,7 @@ build CMakeFiles/view.dir/view_autogen/EWIEGA46WW/qrc_resource.cpp.obj: CXX_COMP
 #############################################
 # Link the executable view.exe
 
-build view.exe: CXX_EXECUTABLE_LINKER__view_Debug CMakeFiles/view.dir/view_autogen/mocs_compilation.cpp.obj CMakeFiles/view.dir/main.cpp.obj CMakeFiles/view.dir/mainwindow.cpp.obj CMakeFiles/view.dir/errors.cpp.obj CMakeFiles/view.dir/view_autogen/EWIEGA46WW/qrc_resource.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || view_autogen
+build view.exe: CXX_EXECUTABLE_LINKER__view_Debug CMakeFiles/view.dir/view_autogen/mocs_compilation.cpp.obj CMakeFiles/view.dir/main.cpp.obj CMakeFiles/view.dir/mainwindow.cpp.obj CMakeFiles/view.dir/Data.cpp.obj CMakeFiles/view.dir/Vector.cpp.obj CMakeFiles/view.dir/errors.cpp.obj CMakeFiles/view.dir/secdialog.cpp.obj CMakeFiles/view.dir/view_autogen/EWIEGA46WW/qrc_resource.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || view_autogen
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libQt6Widgets.dll.a  C:/msys64/mingw64/lib/libQt6Gui.dll.a  C:/msys64/mingw64/lib/libQt6Core.dll.a  -lmpr  -luserenv  -lmingw32  C:/msys64/mingw64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -113,7 +137,7 @@ build view.exe: CXX_EXECUTABLE_LINKER__view_Debug CMakeFiles/view.dir/view_autog
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -124,7 +148,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\user\Desktop\cpp_project\view -BC:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Users\user\Desktop\cpp_project\view -BC:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -142,7 +166,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -154,7 +178,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -166,7 +190,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -177,16 +201,16 @@ build install/strip: phony CMakeFiles/install/strip.util
 #############################################
 # Utility command for view_autogen
 
-build view_autogen: phony CMakeFiles/view_autogen view_autogen/timestamp view_autogen/mocs_compilation.cpp view_autogen/include/ui_mainwindow.h
+build view_autogen: phony CMakeFiles/view_autogen view_autogen/timestamp view_autogen/mocs_compilation.cpp view_autogen/include/ui_mainwindow.h view_autogen/include/ui_secdialog.h
 
 
 #############################################
 # Custom command for view_autogen\timestamp
 
-build view_autogen/timestamp view_autogen/mocs_compilation.cpp view_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}view_autogen/timestamp ${cmake_ninja_workdir}view_autogen/mocs_compilation.cpp ${cmake_ninja_workdir}view_autogen/include/ui_mainwindow.h: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutogenInfo.json Debug && C:\msys64\mingw64\bin\cmake.exe -E touch C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/timestamp && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile C:/Users/user/Desktop/cpp_project/view C:/Users/user/Desktop/cpp_project/view C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/deps C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/d/aff7502c5e8da46bb428865c24e2e36cef6277227983de3181b808145100bccd.d"
+build view_autogen/timestamp view_autogen/mocs_compilation.cpp view_autogen/include/ui_mainwindow.h view_autogen/include/ui_secdialog.h | ${cmake_ninja_workdir}view_autogen/timestamp ${cmake_ninja_workdir}view_autogen/mocs_compilation.cpp ${cmake_ninja_workdir}view_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}view_autogen/include/ui_secdialog.h: CUSTOM_COMMAND C$:/msys64/mingw64/share/qt6/bin/moc.exe C$:/msys64/mingw64/share/qt6/bin/uic.exe
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -E cmake_autogen C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutogenInfo.json Debug && C:\msys64\mingw64\bin\cmake.exe -E touch C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/timestamp && C:\msys64\mingw64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile C:/Users/user/Desktop/cpp_project/view C:/Users/user/Desktop/cpp_project/view C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/deps C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/d/f7b976a4fd1d90d57d94c10f0d1b9b5c4c916363f23aeb55e0a238909a1376af.d"
   DESC = Automatic MOC and UIC for target view
-  depfile = CMakeFiles\d\aff7502c5e8da46bb428865c24e2e36cef6277227983de3181b808145100bccd.d
+  depfile = CMakeFiles\d\f7b976a4fd1d90d57d94c10f0d1b9b5c4c916363f23aeb55e0a238909a1376af.d
   deps = gcc
   restat = 1
 
@@ -194,8 +218,8 @@ build view_autogen/timestamp view_autogen/mocs_compilation.cpp view_autogen/incl
 #############################################
 # Custom command for view_autogen\EWIEGA46WW\qrc_resource.cpp
 
-build view_autogen/EWIEGA46WW/qrc_resource.cpp | ${cmake_ninja_workdir}view_autogen/EWIEGA46WW/qrc_resource.cpp: CUSTOM_COMMAND C$:/Users/user/Desktop/cpp_project/view/resource.qrc CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json C$:/Users/user/Desktop/cpp_project/view/img/my-background.png C$:/msys64/mingw64/share/qt6/bin/rcc.exe C$:/msys64/mingw64/share/qt6/bin/rcc.exe || view_autogen
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -E cmake_autorcc C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug"
+build view_autogen/EWIEGA46WW/qrc_resource.cpp | ${cmake_ninja_workdir}view_autogen/EWIEGA46WW/qrc_resource.cpp: CUSTOM_COMMAND C$:/Users/user/Desktop/cpp_project/view/resource.qrc CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json C$:/Users/user/Desktop/cpp_project/view/img/my-background.png C$:/Users/user/Desktop/cpp_project/view/question.jpg C$:/msys64/mingw64/share/qt6/bin/rcc.exe C$:/msys64/mingw64/share/qt6/bin/rcc.exe || view_autogen
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\cpp_project\view\build\~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug && C:\msys64\mingw64\bin\cmake.exe -E cmake_autorcc C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Info.json Debug"
   DESC = Automatic RCC for resource.qrc
   restat = 1
 
@@ -216,7 +240,7 @@ build view: phony view.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug
+# Folder: C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug
 
 build all: phony view.exe
 

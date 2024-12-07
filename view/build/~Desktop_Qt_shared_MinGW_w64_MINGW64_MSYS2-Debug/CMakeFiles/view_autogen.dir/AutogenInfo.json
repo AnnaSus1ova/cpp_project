@@ -1,18 +1,18 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+	"BUILD_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/user/Desktop/cpp_project/view",
 	"CMAKE_EXECUTABLE" : "C:/msys64/mingw64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
 		"C:/Users/user/Desktop/cpp_project/view/CMakeLists.txt",
-		"C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeSystem.cmake",
+		"C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeCXXCompiler.cmake",
+		"C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeCXXCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -25,7 +25,7 @@
 		"C:/msys64/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeRCCompiler.cmake",
+		"C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeRCCompiler.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeRCInformation.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-windres.cmake",
 		"C:/msys64/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -262,10 +262,22 @@
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/user/Desktop/cpp_project/view",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/deps",
+	"DEP_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "view_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"C:/Users/user/Desktop/cpp_project/view/Data.h",
+			"MU",
+			"EWIEGA46WW/moc_Data.cpp",
+			null
+		],
+		[
+			"C:/Users/user/Desktop/cpp_project/view/Vector.h",
+			"MU",
+			"EWIEGA46WW/moc_Vector.cpp",
+			null
+		],
 		[
 			"C:/Users/user/Desktop/cpp_project/view/errors.h",
 			"MU",
@@ -277,11 +289,17 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"C:/Users/user/Desktop/cpp_project/view/secdialog.h",
+			"MU",
+			"EWIEGA46WW/moc_secdialog.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -339,22 +357,25 @@
 		"-c",
 		"C:/msys64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 8,
-	"SETTINGS_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/user/Desktop/cpp_project/view/Data.cpp", "MU", null ],
+		[ "C:/Users/user/Desktop/cpp_project/view/Vector.cpp", "MU", null ],
 		[ "C:/Users/user/Desktop/cpp_project/view/errors.cpp", "MU", null ],
 		[ "C:/Users/user/Desktop/cpp_project/view/main.cpp", "MU", null ],
-		[ "C:/Users/user/Desktop/cpp_project/view/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/user/Desktop/cpp_project/view/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/user/Desktop/cpp_project/view/secdialog.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

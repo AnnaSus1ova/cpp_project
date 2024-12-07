@@ -1,16 +1,22 @@
 view_autogen/timestamp: \
 	C:/Users/user/Desktop/cpp_project/view/CMakeLists.txt \
-	C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake \
-	C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeCXXCompiler.cmake \
-	C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeRCCompiler.cmake \
-	C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeSystem.cmake \
-	C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/moc_predefs.h \
+	C:/Users/user/Desktop/cpp_project/view/Data.cpp \
+	C:/Users/user/Desktop/cpp_project/view/Data.h \
+	C:/Users/user/Desktop/cpp_project/view/Vector.cpp \
+	C:/Users/user/Desktop/cpp_project/view/Vector.h \
+	C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeCXXCompiler.cmake \
+	C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeRCCompiler.cmake \
+	C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.31.0/CMakeSystem.cmake \
+	C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/moc_predefs.h \
 	C:/Users/user/Desktop/cpp_project/view/errors.cpp \
 	C:/Users/user/Desktop/cpp_project/view/errors.h \
 	C:/Users/user/Desktop/cpp_project/view/main.cpp \
 	C:/Users/user/Desktop/cpp_project/view/mainwindow.cpp \
 	C:/Users/user/Desktop/cpp_project/view/mainwindow.h \
 	C:/Users/user/Desktop/cpp_project/view/resource.qrc \
+	C:/Users/user/Desktop/cpp_project/view/secdialog.cpp \
+	C:/Users/user/Desktop/cpp_project/view/secdialog.h \
 	C:/msys64/mingw64/include/_mingw.h \
 	C:/msys64/mingw64/include/_mingw_mac.h \
 	C:/msys64/mingw64/include/_mingw_off_t.h \
@@ -344,7 +350,9 @@ view_autogen/timestamp: \
 	C:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
 	C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
 	C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+	C:/msys64/mingw64/include/qt6/QtWidgets/QDialog \
 	C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
+	C:/msys64/mingw64/include/qt6/QtWidgets/qdialog.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
 	C:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
@@ -545,4 +553,5 @@ view_autogen/timestamp: \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/Windows.cmake \
 	C:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
 	C:/Users/user/Desktop/cpp_project/view/mainwindow.ui \
+	C:/Users/user/Desktop/cpp_project/view/secdialog.ui \
 	C:/msys64/mingw64/bin/cmake.exe

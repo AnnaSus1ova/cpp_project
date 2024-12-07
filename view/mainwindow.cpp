@@ -9,6 +9,7 @@
 #include <algorithm>
 #include "Data.h"
 #include <iostream>
+#include "secdialog.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -30,17 +31,17 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Error_clicked()
 {
-    ui->ShowError_1->clear();
-    ui->ShowError_2->clear();
+    //ui->ShowError_1->clear();
+    //ui->ShowError_2->clear();
 
-    MeasurementError AV{std::vector<double> (5)};
-    MeasurementError AME{std::vector<double> (5)};
+    //MeasurementError AV{std::vector<double> (5)};
+    //MeasurementError AME{std::vector<double> (5)};
 
-    QString AMEString = QString::number(AME.average_measurement_error_abscissa());
-    ui->ShowError_1->insertPlainText(QString(AMEString));
+    //QString AMEString = QString::number(AME.average_measurement_error());
+    //ui->ShowError_1->insertPlainText(QString(AMEString));
 
-    QString AVString = QString::number(AV.average_value_abscissa());
-    ui->ShowError_2->insertPlainText(QString(AVString));
+    //QString AVString = QString::number(AV.average_value());
+    //ui->ShowError_2->insertPlainText(QString(AVString));
 }
 
 
@@ -94,5 +95,13 @@ void MainWindow::on_AddFile2_clicked()
     for (std::vector<double>::iterator i = ordin_d.begin(); i != ordin_d.end(); ++i)
         std::cout << *i;
     Data.set_ordinate(ordin_d);
+}
+
+void MainWindow::on_question_clicked()
+{
+    SecDialog secdialog;
+    secdialog.setModal(true);
+    secdialog.exec();
+
 }
 

@@ -1,5 +1,5 @@
-C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/user/Desktop/cpp_project/view/mainwindow.h \
-  C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/moc_predefs.h \
+C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/user/Desktop/cpp_project/view/mainwindow.h \
+  C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/moc_predefs.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \

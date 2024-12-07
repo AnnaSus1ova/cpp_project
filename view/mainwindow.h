@@ -20,6 +20,8 @@ public:
 private slots:
     void on_Error_clicked();
 
+    void on_question_clicked();
+
     void on_AddFile1_clicked();
 
     void on_AddFile2_clicked();

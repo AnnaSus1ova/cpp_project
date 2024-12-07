@@ -1,21 +1,25 @@
 {
-	"BUILD_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+	"BUILD_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/user/Desktop/cpp_project/view",
 	"CMAKE_SOURCE_DIR" : "C:/Users/user/Desktop/cpp_project/view",
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "Ninja",
-	"INCLUDE_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include",
-	"INPUTS" : [ "C:/Users/user/Desktop/cpp_project/view/img/my-background.png" ],
-	"LOCK_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"INCLUDE_DIR" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/view_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/user/Desktop/cpp_project/view/img/my-background.png",
+		"C:/Users/user/Desktop/cpp_project/view/question.jpg"
+	],
+	"LOCK_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resource" ],
 	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
 	"OUTPUT_NAME" : "qrc_resource.cpp",
 	"RCC_EXECUTABLE" : "C:/msys64/mingw64/share/qt6/bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE" : "C:/Users/user/Desktop/cpp_project/view/build/~Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/view_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
 	"SOURCE" : "C:/Users/user/Desktop/cpp_project/view/resource.qrc",
 	"USE_BETTER_GRAPH" : true,
 	"VERBOSITY" : 0
