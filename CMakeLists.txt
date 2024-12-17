@@ -48,6 +48,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         wrong_input.h
         custom_split.cpp
         custom_split.h
+        different_quantity.ui
+        different_quantity.cpp
+        different_quantity.h
 
 
 

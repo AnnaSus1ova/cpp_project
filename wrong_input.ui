@@ -6,33 +6,51 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>455</width>
-    <height>125</height>
+    <width>542</width>
+    <height>160</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Ошибка</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 145, 10);</string>
   </property>
   <widget class="QTextEdit" name="textEdit">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>20</y>
-     <width>431</width>
-     <height>81</height>
+     <width>521</width>
+     <height>121</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
    <property name="lineWidth">
-    <number>5</number>
+    <number>1</number>
    </property>
    <property name="midLineWidth">
     <number>0</number>
+   </property>
+   <property name="tabChangesFocus">
+    <bool>false</bool>
    </property>
    <property name="documentTitle">
     <string/>
    </property>
    <property name="lineWrapColumnOrWidth">
-    <number>1</number>
+    <number>0</number>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -50,8 +68,14 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:6px; margin-bottom:6px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Вы ввели значения в неверном формате. Принимаются только целые и вещественные числа, введенные через пробел. (дробную часть необходимо отделять точкой)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:8px; margin-bottom:8px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Вы ввели значения в неверном формате. Принимаются только целые и вещественные числа, введенные через пробел. (дробную часть необходимо отделять точкой)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+   <property name="cursorWidth">
+    <number>0</number>
    </property>
   </widget>
  </widget>

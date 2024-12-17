@@ -11,6 +11,7 @@
 #include <iostream>
 #include "secdialog.h"
 #include "wrong_input.h"
+#include "different_quantity.h"
 #include <QFile>
 #include <QByteArray>
 #include "widget.h"
@@ -75,6 +76,11 @@ void MainWindow::on_AddFile1_clicked()
         if (text1.isEmpty()) return;
     }
     try{
+        for (const QChar& ch : text1) {
+            if (!ch.isDigit() && ch != '.' && ch != ' ') {
+                throw std::invalid_argument("Строка содержит недопустимые символы!");
+            }
+        }
         std::vector<std::string> absci_str = customSplit(text1.toUtf8().constData(), " ");
         std::vector<double> absci_d;
         std::transform(absci_str.begin(), absci_str.end(), std::back_inserter(absci_d),
@@ -107,6 +113,11 @@ void MainWindow::on_AddFile2_clicked()
         if (text2.isEmpty()) return;
     }
     try{
+        for (const QChar& ch : text2) {
+            if (!ch.isDigit() && ch != '.' && ch != ' ') {
+                throw std::invalid_argument("Строка содержит недопустимые символы!");
+            }
+        }
         std::vector<std::string> ordin_str = customSplit(text2.toUtf8().constData(), " ");
         std::vector<double> ordin_d;
         std::transform(ordin_str.begin(), ordin_str.end(), std::back_inserter(ordin_d),
@@ -134,18 +145,32 @@ void MainWindow::on_question_clicked()
 
 void MainWindow::on_Graph1_clicked()
 {
-    Widget wid(1);
+    if (Data.get_abscissa().size() != Data.get_ordinate().size()){
+        DifferentQuantity different_quantity;
+        different_quantity.setModal(true);
+        different_quantity.exec();
+        }
+    else{
+        Widget wid(1);
 
-    wid.setModal(true);
-    wid.exec();
+        wid.setModal(true);
+        wid.exec();
+    }
 }
 
 
 void MainWindow::on_Graph2_clicked()
 {
-    Widget wid(2);
-    std::cout << wid.getFlag() << std::endl;
-    wid.setModal(true);
-    wid.exec();
+    if (Data.get_abscissa().size() != Data.get_ordinate().size()){
+        DifferentQuantity different_quantity;
+        different_quantity.setModal(true);
+        different_quantity.exec();
+    }
+    else{
+        Widget wid(2);
+        std::cout << wid.getFlag() << std::endl;
+        wid.setModal(true);
+        wid.exec();
+    }
 }
 
